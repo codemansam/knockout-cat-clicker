@@ -1,11 +1,11 @@
 var ViewModel = function() {
-	this.clickCOunt = ko.observable(0);
+	this.clickCount = ko.observable(0);
 	this.name = ko.observable('Tabby');
 	this.imgSrc = ko.observable('img/tabby.jpg')
 	this.imgAttribution = ko.observable('https://www.flickr.com/photos/big')
 
 	this.incrementCounter = function () {
-	this.clickCount(this.clickCount() =1);
+	this.clickCount(this.clickCount() +1);
 	};
 }
 
