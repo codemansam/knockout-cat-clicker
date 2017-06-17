@@ -12,8 +12,6 @@ var ViewModel = function() {
 			this.level('Mature');
 		}
 	}
-
-
-};
-
+	this.nickname = ko.observableArray(['Boris', 'Jack off', 'Ronald', 'Dirty John', 'Pickler']);
+}
 ko.applyBindings(new ViewModel());
